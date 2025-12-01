@@ -1,44 +1,51 @@
-* {
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
+
 
 .container {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
-    width: auto;
-    max-width: 300px;
-    z-index: 1000;
+    width: 300px;
 }
 
 .message {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #2c3e50; 
-    color: #ecf0f1; 
+    background-color: #1e90ff; 
+    color: white;
     padding: 15px 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transform: translateX(120%);
-    transition: transform 0.4s ease-in-out;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+    position: relative;
 }
+
 
 .message.show {
-    transform: translateX(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.close {
-    margin-left: 15px;
-    font-weight: bold;
+
+.message .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
     cursor: pointer;
-    color: #e74c3c;
-    transition: color 0.3s;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.2s ease;
 }
 
-.close:hover {
-    color: #c0392b;
+.message .close:hover {
+    transform: rotate(90deg);
 }
