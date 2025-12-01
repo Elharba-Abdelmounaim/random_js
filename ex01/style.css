@@ -1,6 +1,56 @@
-.erreur{
-    color:red;
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
 }
+
+div{
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    width: 150px;
+}
+
+button{
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+#get{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.erreur{
+    color: red;
+}
+
 .succes{
-    color:green;
+    color: green;
+    font-weight: bold;
 }
