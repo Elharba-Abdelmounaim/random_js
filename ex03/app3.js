@@ -1,5 +1,4 @@
-const images = ['paper.jpg' , 'rock.jpg' ,' scissor.jpg']
-const b = document.getElementById("box");
+const images = ['image/paper1.jpg', 'image/rock1.jpg', 'image/scissor1.png'];
 const imgc = document.getElementById("choice");
 const choice = document.getElementById("user")
 const userimage = document.getElementById("userchoice")
@@ -13,7 +12,7 @@ var cmpu = 0
 var cmpl = 0
 
 function changeImage(){
-    r = Math.round(Math.random() * 3)%3;
+    r = Math.round(Math.random() * 3);
     imgc.src = images[r]
 }
 
