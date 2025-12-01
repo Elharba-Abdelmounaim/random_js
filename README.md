@@ -29,11 +29,12 @@ random_js/
 
 | Exercise | Description | Live Demo |
 |----------|-------------|-----------|
+| **ex** | Number guessing game with success and error messages. | [View](https://elharba-abdelmounaim.github.io/random_js/ex/index.html) |
 | **ex01** | Basic JavaScript practice: alerts, prompts, and console logging. | [View](https://elharba-abdelmounaim.github.io/random_js/ex01/index.html) |
 | **ex02** | Displaying the current time dynamically. | [View](https://elharba-abdelmounaim.github.io/random_js/ex02/index.html) |
 | **ex03** | Rock-Paper-Scissors game with interactive UI. | [View](https://elharba-abdelmounaim.github.io/random_js/ex03/index.html) |
 | **ex04** | Notification system with slide-in effect. | [View](https://elharba-abdelmounaim.github.io/random_js/ex04/index.html) |
-| **ex05** | Number guessing game with success and error messages. | [View](https://elharba-abdelmounaim.github.io/random_js/ex05/index.html) |
+
 
 
 > **Note:** Each exercise contains its own HTML, CSS, and JS files. Images and other assets are stored in the `assets/` folder.
