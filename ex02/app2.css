@@ -1,0 +1,11 @@
+.ped{
+    color: rgb(26, 3, 3);
+    background-color: rgb(44, 165, 42);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
