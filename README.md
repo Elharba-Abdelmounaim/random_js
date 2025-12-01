@@ -3,6 +3,9 @@
 ## Overview
 **Random JS** is a collection of small JavaScript projects and exercises designed to help beginners and intermediate developers practice HTML, CSS, and JavaScript. Each folder represents a different exercise, ranging from simple DOM manipulation to interactive games.
 
+Hosted live at: [https://elharba-abdelmounaim.github.io/random_js/](https://elharba-abdelmounaim.github.io/random_js/)
+
+
 ---
 
 ## Project Structure
@@ -24,17 +27,19 @@ random_js/
 
 ## Exercises Included
 
-| Exercise | Description |
-|----------|-------------|
-| **ex01** | Basic JavaScript practice: alerts, prompts, and console logging. |
-| **ex02** | Displaying the current time dynamically. |
-| **ex03** | Rock-Paper-Scissors game with interactive UI. |
-| **ex04** | Notification system with slide-in effect. |
-| **ex05** | Number guessing game with success and error messages. |
+| Exercise | Description | Live Demo |
+|----------|-------------|-----------|
+| **ex01** | Basic JavaScript practice: alerts, prompts, and console logging. | [View](https://elharba-abdelmounaim.github.io/random_js/ex01/) |
+| **ex02** | Displaying the current time dynamically. | [View](https://elharba-abdelmounaim.github.io/random_js/ex02/) |
+| **ex03** | Rock-Paper-Scissors game with interactive UI. | [View](https://elharba-abdelmounaim.github.io/random_js/ex03/) |
+| **ex04** | Notification system with slide-in effect. | [View](https://elharba-abdelmounaim.github.io/random_js/ex04/) |
+| **ex05** | Number guessing game with success and error messages. | [View](https://elharba-abdelmounaim.github.io/random_js/ex05/) |
+
 
 > **Note:** Each exercise contains its own HTML, CSS, and JS files. Images and other assets are stored in the `assets/` folder.
 
 ---
+
 
 ## How to Run Locally
 
